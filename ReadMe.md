@@ -1,9 +1,7 @@
-题目:
+当前有三个函数:
 
-* 当前每一个分支为一道题目, 分支名为题目名称, 可以任意选择题目
-* 尽力而为
-* 需要将代码Fork一份到自己的仓库, 完成后将已经完成(部分完成)的内容写在ReadMe.md中, 并提交到自己的仓库.
+* Template::addInt
+* Template::addString
+* Template::addBool
 
-以下是完成情况:
-
-* 待填写
+Q: 请补全template add函数, 使输入参数为int类型, string类型和bool类型时均能调用到对应的函数:
