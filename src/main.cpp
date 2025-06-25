@@ -11,6 +11,7 @@
 std::unordered_map<uint32_t, SegmentationFault::Entity> ENTITIES{};
 
 int main(int argc, char **argv) {
+    // 可修改区域开始
     for (int index = 0; index < 15; ++index) {
         ENTITIES.emplace(index, SegmentationFault::Entity{});
     }
@@ -26,6 +27,9 @@ int main(int argc, char **argv) {
         }
         *count_times++;
     }
+    // 可修改区域结束
+
+    
     printf("Count: %d", *count_times);
     return 0;
 }
